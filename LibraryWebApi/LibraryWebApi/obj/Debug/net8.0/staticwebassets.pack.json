@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\sol\\OneDrive\\Desktop\\html\\LibraryWebApi\\LibraryWebApi\\wwwroot\\app.js",
+      "PackagePath": "staticwebassets\\app.js"
+    },
+    {
+      "Id": "C:\\Users\\sol\\OneDrive\\Desktop\\html\\LibraryWebApi\\LibraryWebApi\\wwwroot\\auth.js",
+      "PackagePath": "staticwebassets\\auth.js"
+    },
+    {
+      "Id": "C:\\Users\\sol\\OneDrive\\Desktop\\html\\LibraryWebApi\\LibraryWebApi\\wwwroot\\dashboard.html",
+      "PackagePath": "staticwebassets\\dashboard.html"
+    },
+    {
+      "Id": "C:\\Users\\sol\\OneDrive\\Desktop\\html\\LibraryWebApi\\LibraryWebApi\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.LibraryWebApi.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.LibraryWebApi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.LibraryWebApi.props",
+      "PackagePath": "build\\LibraryWebApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.LibraryWebApi.props",
+      "PackagePath": "buildMultiTargeting\\LibraryWebApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.LibraryWebApi.props",
+      "PackagePath": "buildTransitive\\LibraryWebApi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

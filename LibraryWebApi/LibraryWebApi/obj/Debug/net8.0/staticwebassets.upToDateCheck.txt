@@ -1,0 +1,4 @@
+wwwroot\app.js
+wwwroot\auth.js
+wwwroot\dashboard.html
+wwwroot\index.html

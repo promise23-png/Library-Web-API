@@ -1,0 +1,434 @@
+{
+  "Version": 1,
+  "Hash": "4EyReyu+faPmmgJsuGmvps0qP9+v6ry/4x2qa3w4+CE=",
+  "Source": "LibraryWebApi",
+  "BasePath": "_content/LibraryWebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "LibraryWebApi\\wwwroot",
+      "Source": "LibraryWebApi",
+      "ContentRoot": "C:\\Users\\sol\\OneDrive\\Desktop\\html\\LibraryWebApi\\LibraryWebApi\\wwwroot\\",
+      "BasePath": "_content/LibraryWebApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\sol\\OneDrive\\Desktop\\html\\LibraryWebApi\\LibraryWebApi\\wwwroot\\app.js",
+      "SourceId": "LibraryWebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sol\\OneDrive\\Desktop\\html\\LibraryWebApi\\LibraryWebApi\\wwwroot\\",
+      "BasePath": "_content/LibraryWebApi",
+      "RelativePath": "app#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ac4wd017dt",
+      "Integrity": "+toXuWHnjv0/V5Or5LbbM0eNC7uuFGineckiM3b62UE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\app.js"
+    },
+    {
+      "Identity": "C:\\Users\\sol\\OneDrive\\Desktop\\html\\LibraryWebApi\\LibraryWebApi\\wwwroot\\auth.js",
+      "SourceId": "LibraryWebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sol\\OneDrive\\Desktop\\html\\LibraryWebApi\\LibraryWebApi\\wwwroot\\",
+      "BasePath": "_content/LibraryWebApi",
+      "RelativePath": "auth#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "acuaqxp4mb",
+      "Integrity": "GsYUpGF4YWVvAfApfCkf6mP86cuSpVOaTbamCsVitN0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\auth.js"
+    },
+    {
+      "Identity": "C:\\Users\\sol\\OneDrive\\Desktop\\html\\LibraryWebApi\\LibraryWebApi\\wwwroot\\dashboard.html",
+      "SourceId": "LibraryWebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sol\\OneDrive\\Desktop\\html\\LibraryWebApi\\LibraryWebApi\\wwwroot\\",
+      "BasePath": "_content/LibraryWebApi",
+      "RelativePath": "dashboard#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wd8xfu4jsk",
+      "Integrity": "tE/+ztTQjARXJtY25sTx7r4SvULFvaNNxu1hu/RzGEY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\dashboard.html"
+    },
+    {
+      "Identity": "C:\\Users\\sol\\OneDrive\\Desktop\\html\\LibraryWebApi\\LibraryWebApi\\wwwroot\\index.html",
+      "SourceId": "LibraryWebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sol\\OneDrive\\Desktop\\html\\LibraryWebApi\\LibraryWebApi\\wwwroot\\",
+      "BasePath": "_content/LibraryWebApi",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5mav0jnfjs",
+      "Integrity": "g1xskleJfH/Wtf5kWPVrd6lSfPb0Q6tbjWEjSUBfSZw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "app.ac4wd017dt.js",
+      "AssetFile": "C:\\Users\\sol\\OneDrive\\Desktop\\html\\LibraryWebApi\\LibraryWebApi\\wwwroot\\app.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5459"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+toXuWHnjv0/V5Or5LbbM0eNC7uuFGineckiM3b62UE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Jun 2025 14:41:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ac4wd017dt"
+        },
+        {
+          "Name": "label",
+          "Value": "app.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+toXuWHnjv0/V5Or5LbbM0eNC7uuFGineckiM3b62UE="
+        }
+      ]
+    },
+    {
+      "Route": "app.js",
+      "AssetFile": "C:\\Users\\sol\\OneDrive\\Desktop\\html\\LibraryWebApi\\LibraryWebApi\\wwwroot\\app.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5459"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+toXuWHnjv0/V5Or5LbbM0eNC7uuFGineckiM3b62UE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Jun 2025 14:41:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+toXuWHnjv0/V5Or5LbbM0eNC7uuFGineckiM3b62UE="
+        }
+      ]
+    },
+    {
+      "Route": "auth.acuaqxp4mb.js",
+      "AssetFile": "C:\\Users\\sol\\OneDrive\\Desktop\\html\\LibraryWebApi\\LibraryWebApi\\wwwroot\\auth.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3923"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GsYUpGF4YWVvAfApfCkf6mP86cuSpVOaTbamCsVitN0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Jun 2025 07:08:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "acuaqxp4mb"
+        },
+        {
+          "Name": "label",
+          "Value": "auth.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GsYUpGF4YWVvAfApfCkf6mP86cuSpVOaTbamCsVitN0="
+        }
+      ]
+    },
+    {
+      "Route": "auth.js",
+      "AssetFile": "C:\\Users\\sol\\OneDrive\\Desktop\\html\\LibraryWebApi\\LibraryWebApi\\wwwroot\\auth.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3923"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GsYUpGF4YWVvAfApfCkf6mP86cuSpVOaTbamCsVitN0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Jun 2025 07:08:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GsYUpGF4YWVvAfApfCkf6mP86cuSpVOaTbamCsVitN0="
+        }
+      ]
+    },
+    {
+      "Route": "dashboard.html",
+      "AssetFile": "C:\\Users\\sol\\OneDrive\\Desktop\\html\\LibraryWebApi\\LibraryWebApi\\wwwroot\\dashboard.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4686"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tE/+ztTQjARXJtY25sTx7r4SvULFvaNNxu1hu/RzGEY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 21:58:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tE/+ztTQjARXJtY25sTx7r4SvULFvaNNxu1hu/RzGEY="
+        }
+      ]
+    },
+    {
+      "Route": "dashboard.wd8xfu4jsk.html",
+      "AssetFile": "C:\\Users\\sol\\OneDrive\\Desktop\\html\\LibraryWebApi\\LibraryWebApi\\wwwroot\\dashboard.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4686"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tE/+ztTQjARXJtY25sTx7r4SvULFvaNNxu1hu/RzGEY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 21:58:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wd8xfu4jsk"
+        },
+        {
+          "Name": "label",
+          "Value": "dashboard.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tE/+ztTQjARXJtY25sTx7r4SvULFvaNNxu1hu/RzGEY="
+        }
+      ]
+    },
+    {
+      "Route": "index.5mav0jnfjs.html",
+      "AssetFile": "C:\\Users\\sol\\OneDrive\\Desktop\\html\\LibraryWebApi\\LibraryWebApi\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5518"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"g1xskleJfH/Wtf5kWPVrd6lSfPb0Q6tbjWEjSUBfSZw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 22:01:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5mav0jnfjs"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-g1xskleJfH/Wtf5kWPVrd6lSfPb0Q6tbjWEjSUBfSZw="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\sol\\OneDrive\\Desktop\\html\\LibraryWebApi\\LibraryWebApi\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5518"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"g1xskleJfH/Wtf5kWPVrd6lSfPb0Q6tbjWEjSUBfSZw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 22:01:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-g1xskleJfH/Wtf5kWPVrd6lSfPb0Q6tbjWEjSUBfSZw="
+        }
+      ]
+    }
+  ]
+}

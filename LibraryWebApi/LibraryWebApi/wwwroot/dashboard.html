@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library System - Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .nav-link {
+            transition: all 0.3s ease;
+        }
+
+            .nav-link:hover {
+                transform: translateX(4px);
+            }
+
+        pre {
+            max-height: 400px;
+            overflow-y: auto;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <div class="flex min-h-screen">
+        <!-- Sidebar -->
+        <div class="w-64 bg-blue-800 text-white p-4">
+            <h2 class="text-xl font-bold mb-6 mt-4">Library System</h2>
+            <nav class="space-y-2">
+                <a href="#" class="block nav-link py-2 px-4 bg-blue-700 rounded-lg">Dashboard</a>
+                <a href="#" onclick="showSection('books-section')" class="block nav-link py-2 px-4 hover:bg-blue-700 rounded-lg">Books</a>
+                <a href="#" onclick="showSection('borrowers-section')" class="block nav-link py-2 px-4 hover:bg-blue-700 rounded-lg">Borrowers</a>
+                <a href="#" onclick="showSection('loans-section')" class="block nav-link py-2 px-4 hover:bg-blue-700 rounded-lg">Loans</a>
+                <a href="#" onclick="logout()" class="block nav-link py-2 px-4 text-red-300 hover:bg-red-700 rounded-lg mt-8">Logout</a>
+            </nav>
+        </div>
+
+        <!-- Main Content -->
+        <div class="flex-1 p-8">
+            <!-- Token Display -->
+            <div class="mb-6 p-4 bg-white rounded-lg shadow">
+                <h3 class="text-lg font-medium mb-2">Your Access Token:</h3>
+                <div id="current-token" class="p-3 bg-gray-100 rounded font-mono text-sm break-all mb-2"></div>
+                <button onclick="copyToken()" class="bg-blue-500 hover:bg-blue-600 text-white py-1 px-3 rounded text-sm">
+                    Copy Token
+                </button>
+            </div>
+
+            <!-- Sections -->
+            <div id="books-section" class="section hidden bg-white p-6 rounded-lg shadow mb-6">
+                <h2 class="text-2xl font-bold mb-4">Books Management</h2>
+                <div class="space-y-4">
+                    <button onclick="getBooks()" class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded">
+                        Get All Books
+                    </button>
+                    <button onclick="addBook()" class="bg-green-500 hover:bg-green-600 text-white py-2 px-4 rounded">
+                        Add New Book
+                    </button>
+                </div>
+            </div>
+
+            <div id="borrowers-section" class="section hidden bg-white p-6 rounded-lg shadow mb-6">
+                <h2 class="text-2xl font-bold mb-4">Borrowers Management</h2>
+                <div class="space-y-4">
+                    <button onclick="getBorrowers()" class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded">
+                        Get All Borrowers
+                    </button>
+                    <button onclick="addBorrower()" class="bg-green-500 hover:bg-green-600 text-white py-2 px-4 rounded">
+                        Add New Borrower
+                    </button>
+                </div>
+            </div>
+
+            <div id="loans-section" class="section hidden bg-white p-6 rounded-lg shadow mb-6">
+                <h2 class="text-2xl font-bold mb-4">Loans Management</h2>
+                <div class="space-y-4">
+                    <button onclick="issueLoan()" class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded">
+                        Issue Loan
+                    </button>
+                    <button onclick="returnLoan()" class="bg-green-500 hover:bg-green-600 text-white py-2 px-4 rounded">
+                        Return Loan
+                    </button>
+                    <button onclick="getOverdueLoans()" class="bg-yellow-500 hover:bg-yellow-600 text-white py-2 px-4 rounded">
+                        Get Overdue Loans
+                    </button>
+                </div>
+            </div>
+
+            <!-- API Output -->
+            <div class="bg-gray-800 p-6 rounded-lg shadow">
+                <h2 class="text-xl font-bold text-white mb-4">API Response</h2>
+                <pre id="output" class="bg-gray-900 text-green-400 p-4 rounded text-sm"></pre>
+            </div>
+        </div>
+    </div>
+
+    <script src="auth.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
